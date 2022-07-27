@@ -1,0 +1,31 @@
+@mixin responsive($screenWidth) {
+    @media(max-width: $screenWidth) {
+        @content;
+    }
+}
+
+@mixin flex($direction, $align, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin style-btn($height, $bg, $colorText) {
+    display: inline-block;
+    border-radius: .6rem;
+    padding: 0 5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: $height;
+    height: $height;
+    background-color: $bg;
+    color: $colorText;
+    transition: all .3s;
+    font-size: 1.6rem;
+    &:hover {
+        color: $bg;
+        background-color: $colorText;
+    }
+}
