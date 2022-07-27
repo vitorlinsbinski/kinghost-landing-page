@@ -6,4 +6,4 @@ Landing page built on Codeboost course to practice SASS skills, a modern CSS ext
 - CSS
 - SASS
 
-
+[KingHost Landing Page](https://vitorlinsbinski.github.io/kinghost-landing-page/)
